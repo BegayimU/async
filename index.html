@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        body{
+            margin-top: 150px;   
+            margin-left: 25px;        
+            background: -webkit-linear-gradient(90deg, rgb(61, 90, 83), rgb(22, 62, 64));
+            background: -moz-linear-gradient(90deg, rgb(61, 90, 83), rgb(22, 62, 64));
+            background: linear-gradient(90deg, rgb(61, 90, 83), rgb(22, 62, 64));
+        }
+        .users {
+            display: flex;
+            flex-wrap: wrap;
+            background-color: ;     
+            gap: 20px;           
+        }
+        .user-card {
+            text-align: center;
+            border: 1px solid #ddd;
+            padding: 15px;
+            background: #f9f9f9;
+            width: 250px;
+            border-radius: 10px;
+        }
+        #btn{
+            height: 30px;
+            width: 50px;
+            border: 1px solid black;
+            border-radius: 10px;
+        }
+    </style>    
+</head>
+<body>
+    <div id="users" class="users"></div>
+    <button id="btn" onclick="getData()">Get</button>
+    <script src="./script.js"></script>
+</body>
+</html>
